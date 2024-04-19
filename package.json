@@ -25,6 +25,6 @@
     "libsodium-wrappers": "^0.7.3"
   },
   "devDependencies": {
-    "np": "^7.6.0"
+    "np": "^10.0.5"
   }
 }
