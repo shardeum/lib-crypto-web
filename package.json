@@ -1,5 +1,5 @@
 {
-  "name": "@shardeum-foundation/crypto-web",
+  "name": "@shardus/crypto-web",
   "version": "2.1.3",
   "description": "Provides simple crypto functions for the web, as used by the Shardus project.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shardeum/lib-crypto-web"
+    "url": "https://gitlab.com/shardus/shardus-crypto-web"
   },
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,7 @@
     "Derrick Farris"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/shardeum/lib-crypto-web#readme",
+  "homepage": "https://gitlab.com/shardus/shardus-crypto-web#readme",
   "dependencies": {
     "json-stable-stringify": "*",
     "libsodium-wrappers": "^0.7.3"
