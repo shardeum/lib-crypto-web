@@ -22,9 +22,9 @@
   "homepage": "https://github.com/shardeum/lib-crypto-web#readme",
   "dependencies": {
     "json-stable-stringify": "*",
-    "libsodium-wrappers": "^0.7.3"
+    "libsodium-wrappers": "0.7.3"
   },
   "devDependencies": {
-    "np": "^7.6.0"
+    "np": "7.6.0"
   }
 }
