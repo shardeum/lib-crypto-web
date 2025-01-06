@@ -53,7 +53,7 @@ crypto.verifyObj(obj)
 
 ## Install
 
-`npm install @shardus/crypto-web`
+`npm install @shardeum-foundation/lib-crypto-web`
 
 ## Release
 
@@ -64,7 +64,7 @@ going back. You'd better make sure you really want it.
 ## Use
 
 ```JavaScript
-const crypto = require('shardus-crypto-web')
+const crypto = require('@shardeum-foundation/lib-crypto-web')
 (async () => {
   await crypto.initialize('64f152869ca2d473e4ba64ab53f49ccdb2edae22da192c126850970e788af347')
   let msg = crypto.hash('Hello world!')
