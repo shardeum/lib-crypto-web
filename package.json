@@ -1,6 +1,6 @@
 {
   "name": "@shardeum-foundation/lib-crypto-web",
-  "version": "2.1.4-prerelease.0",
+  "version": "2.1.4-prerelease.1",
   "description": "Provides simple crypto functions for the web, as used by the Shardus project.",
   "main": "index.js",
   "scripts": {
