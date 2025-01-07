@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -p .",
     "prepare": "npm run compile",
     "release:prerelease": "npm run prepare && npm version prerelease --preid=prerelease && git push --follow-tags && npm publish --tag prerelease",
     "release:patch": "npm run prepare && npm version patch && git push --follow-tags && npm publish",
@@ -29,6 +30,7 @@
     "libsodium-wrappers": "0.7.3"
   },
   "devDependencies": {
-    "np": "7.6.0"
+    "np": "7.6.0",
+    "gts": "3.1.1"
   }
 }
