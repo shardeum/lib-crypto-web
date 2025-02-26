@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "release": "np --no-tests --no-yarn",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "libsodium-wrappers": "^0.7.3"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "np": "^7.6.0"
   }
 }
