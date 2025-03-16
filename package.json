@@ -4,7 +4,9 @@
   "description": "Provides simple crypto functions for the web, as used by the Shardus project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "np --no-tests --no-yarn",
+    "test": "jest",
+    "test:watch": "jest --watch"
     "compile": "tsc -p .",
     "prepare": "npm run compile",
     "release:prepatch": "npm run prepare && npm version prepatch --preid=prerelease && git push --follow-tags && npm publish --tag prerelease",
@@ -35,5 +37,6 @@
   "devDependencies": {
     "np": "7.6.0",
     "gts": "3.1.1"
+    "jest": "29.7.0",
   }
 }
