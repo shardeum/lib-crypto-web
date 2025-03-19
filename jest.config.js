@@ -7,4 +7,4 @@ module.exports = {
   coverageReporters: ['json', 'lcov', 'text', 'json-summary'],
   verbose: true,
   testTimeout: 10000, // Increased timeout for async operations
-}; 
+}

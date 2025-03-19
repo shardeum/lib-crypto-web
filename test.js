@@ -1,5 +1,5 @@
-const crypto = require('./index.js');
-(async () => {
+const crypto = require('./index.js')
+;(async () => {
   try {
     await crypto.initialize('69fa4195670576c0160d660c3be36556ff8d504725be8a59b5a96509e0c994bc')
     console.log(crypto.randomBytes())
