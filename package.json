@@ -33,7 +33,7 @@
     "libsodium-wrappers": "0.7.3"
   },
   "devDependencies": {
-    "np": "7.6.0",
+    "np": "10.2.0",
     "gts": "3.1.1"
   }
 }
