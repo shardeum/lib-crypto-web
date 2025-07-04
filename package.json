@@ -7,6 +7,7 @@
     "release": "np --no-tests --no-yarn",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "compile": "tsc -p .",
     "prepare": "npm run compile",
     "release:prepatch": "npm run prepare && npm version prepatch --preid=prerelease && git push --follow-tags && npm publish --tag prerelease",
