@@ -33,6 +33,9 @@
   ],
   "license": "ISC",
   "homepage": "https://github.com/shardeum/lib-crypto-web#readme",
+  "engines": {
+    "node": "20.19.3"
+  },
   "dependencies": {
     "json-stable-stringify": "1.0.1",
     "libsodium-wrappers": "0.7.3"
